@@ -15,12 +15,12 @@ func main() {
 
 }
 
+
 func day8part1() {
 
 	file, _ := os.Open("input8.txt")
 
 	scanner := bufio.NewScanner(file)
-
 	mappy := make(map[string]int)
 	allTimeMax := 0
 
